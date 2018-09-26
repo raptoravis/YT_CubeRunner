@@ -1,0 +1,130 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "YT_CubeRunner (Debug)",
+			"request": "launch",
+			"preLaunchTask": "YT_CubeRunner Win64 Debug Build",
+			"program": "D:\\Projects\\UE4\\YT_CubeRunner\\Binaries\\Win64\\YT_CubeRunner-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.20",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.20\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "YT_CubeRunner (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "YT_CubeRunner Win64 DebugGame Build",
+			"program": "D:\\Projects\\UE4\\YT_CubeRunner\\Binaries\\Win64\\YT_CubeRunner-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.20",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.20\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "YT_CubeRunner (Development)",
+			"request": "launch",
+			"preLaunchTask": "YT_CubeRunner Win64 Development Build",
+			"program": "D:\\Projects\\UE4\\YT_CubeRunner\\Binaries\\Win64\\YT_CubeRunner.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.20",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.20\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "YT_CubeRunner (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "YT_CubeRunner Win64 Shipping Build",
+			"program": "D:\\Projects\\UE4\\YT_CubeRunner\\Binaries\\Win64\\YT_CubeRunner-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.20",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.20\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "YT_CubeRunner (Test)",
+			"request": "launch",
+			"preLaunchTask": "YT_CubeRunner Win64 Test Build",
+			"program": "D:\\Projects\\UE4\\YT_CubeRunner\\Binaries\\Win64\\YT_CubeRunner-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.20",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.20\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "YT_CubeRunnerEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "YT_CubeRunnerEditor Win64 Debug Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.20\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-debug"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.20",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.20\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "YT_CubeRunnerEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "YT_CubeRunnerEditor Win64 DebugGame Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.20\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-debug"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.20",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.20\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "YT_CubeRunnerEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "YT_CubeRunnerEditor Win64 Development Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.20\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.20",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.20\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.20\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+		}
+	]
+}

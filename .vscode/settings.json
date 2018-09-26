@@ -1,0 +1,8 @@
+{
+	"files.exclude": {
+		"D:/Projects/UE4/YT_CubeRunner/.vscode": true,
+		"D:/Projects/UE4/YT_CubeRunner/Content": true,
+		"D:/Projects/UE4/YT_CubeRunner/Intermediate": true,
+		"D:/Projects/UE4/YT_CubeRunner/Saved": true
+	}
+}

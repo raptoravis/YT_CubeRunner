@@ -1,0 +1,1247 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "YT_CubeRunner Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win32",
+				"Debug",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win32",
+				"Debug",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"YT_CubeRunner Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win32",
+				"Debug",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win32",
+				"DebugGame",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win32",
+				"DebugGame",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"YT_CubeRunner Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win32",
+				"DebugGame",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win32",
+				"Development",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win32",
+				"Development",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"YT_CubeRunner Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win32",
+				"Development",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win32",
+				"Shipping",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win32",
+				"Shipping",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"YT_CubeRunner Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win32",
+				"Shipping",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win32",
+				"Test",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win32",
+				"Test",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"YT_CubeRunner Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win32",
+				"Test",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win64",
+				"Debug",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win64",
+				"Debug",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"YT_CubeRunner Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win64",
+				"Debug",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win64",
+				"DebugGame",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win64",
+				"DebugGame",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"YT_CubeRunner Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win64",
+				"DebugGame",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win64",
+				"Development",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win64",
+				"Development",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"YT_CubeRunner Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win64",
+				"Development",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win64",
+				"Shipping",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win64",
+				"Shipping",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"YT_CubeRunner Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win64",
+				"Shipping",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win64",
+				"Test",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win64",
+				"Test",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"YT_CubeRunner Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Win64",
+				"Test",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Android Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Android",
+				"Debug",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Android Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Android",
+				"Debug",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"YT_CubeRunner Android Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Android Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Android",
+				"Debug",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Android DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Android",
+				"DebugGame",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Android DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Android",
+				"DebugGame",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"YT_CubeRunner Android DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Android DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Android",
+				"DebugGame",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Android Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Android",
+				"Development",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Android Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Android",
+				"Development",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"YT_CubeRunner Android Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Android Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Android",
+				"Development",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Android Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Android",
+				"Shipping",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Android Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Android",
+				"Shipping",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"YT_CubeRunner Android Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Android Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Android",
+				"Shipping",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Android Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Android",
+				"Test",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Android Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Android",
+				"Test",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"YT_CubeRunner Android Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner Android Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"YT_CubeRunner",
+				"Android",
+				"Test",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"HTML5",
+				"Debug",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"HTML5",
+				"Debug",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"YT_CubeRunner HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"YT_CubeRunner",
+				"HTML5",
+				"Debug",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"HTML5",
+				"DebugGame",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"HTML5",
+				"DebugGame",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"YT_CubeRunner HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"YT_CubeRunner",
+				"HTML5",
+				"DebugGame",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner HTML5 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"HTML5",
+				"Development",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"HTML5",
+				"Development",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"YT_CubeRunner HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"YT_CubeRunner",
+				"HTML5",
+				"Development",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"HTML5",
+				"Shipping",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"HTML5",
+				"Shipping",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"YT_CubeRunner HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"YT_CubeRunner",
+				"HTML5",
+				"Shipping",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner HTML5 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"HTML5",
+				"Test",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunner",
+				"HTML5",
+				"Test",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"YT_CubeRunner HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunner HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"YT_CubeRunner",
+				"HTML5",
+				"Test",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunnerEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunnerEditor",
+				"Win64",
+				"Debug",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunnerEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunnerEditor",
+				"Win64",
+				"Debug",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"YT_CubeRunnerEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunnerEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"YT_CubeRunnerEditor",
+				"Win64",
+				"Debug",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunnerEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunnerEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunnerEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunnerEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"YT_CubeRunnerEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunnerEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"YT_CubeRunnerEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunnerEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunnerEditor",
+				"Win64",
+				"Development",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunnerEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"YT_CubeRunnerEditor",
+				"Win64",
+				"Development",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"YT_CubeRunnerEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		},
+		{
+			"label": "YT_CubeRunnerEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"YT_CubeRunnerEditor",
+				"Win64",
+				"Development",
+				"D:\\Projects\\UE4\\YT_CubeRunner\\YT_CubeRunner.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.20"
+			}
+		}
+	]
+}
